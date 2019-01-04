@@ -1,0 +1,2 @@
+New-Item -Force -Path "c:\users\jan\desktop\modinfo\$((Get-Date).ToString('yyyy-MM-dd hh-mm-ss'))" -ItemType Directory
+copy-item "C:\Users\Jan\AppData\Roaming\The Creative Assembly\Warhammer2\logs\modified.log" "c:\users\jan\desktop\modinfo\$((Get-Date).ToString('yyyy-MM-dd hh-mm-ss'))"
